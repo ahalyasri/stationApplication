@@ -1,0 +1,7 @@
+CREATE TABLE Station (
+stationId INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+name VARCHAR(30) NOT NULL,
+hdEnabled VARCHAR(30) NOT NULL,
+callSign VARCHAR(50)
+);
+commit;
